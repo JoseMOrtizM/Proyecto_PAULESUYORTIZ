@@ -1,0 +1,174 @@
+@charset "utf-8";
+/*CSS RESET*/
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote{padding:0; margin:0; font-size:100%; font-weight:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+td, th, caption{font-weight:normal;text-align:left;}
+ing, fieldset{border:0;}
+ol{padding-left:1.4em;list-style:decimal;}
+ul{padding-left:1.4em;list-style:square;}
+q:before, q:after{content:'';}
+/*CSS ESTILO GENERAL*/
+/*CSS SECCIONES*/
+body{
+	background:url(Imagenes/Body.jpg);
+}
+nav{
+	margin:5px auto;
+	padding:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	width:78%;
+	text-align:center;
+	border:5px ridge #c9d3f4;
+	border-radius:20px;
+	box-shadow:#333 10px 5px 10px;
+	background-color:#FFFFFF;
+}
+section{
+	margin:5px auto;
+	padding:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	width:80%;
+	text-align:center;
+	border:5px ridge #c9d3f4;
+	border-radius:20px;
+	box-shadow:#333 10px 5px 10px;
+	background-color:#FFFFFF;
+}
+footer{
+	margin:5px auto;
+	padding:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	width:90%;
+	text-align:center;
+	border:5px ridge #000;
+	border-radius:30px;
+	color:#000000;
+	box-shadow:#333 10px 5px 10px;
+	background:-moz-radial-gradient(center, ellipse, #FFF 50%, #c9d3f4);
+	background:-ms-radial-gradient(center, ellipse, #FFF 50%, #c9d3f4);
+	background:-webkit-radial-gradient(center, ellipse, #FFF 50%, #c9d3f4);
+	background:-o-radial-gradient(center, ellipse, #FFF 50%, #c9d3f4);
+}
+footer:hover{
+	margin:5px auto;
+	padding:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	width:90%;
+	text-align:center;
+	border:5px ridge #0033ccc9d3f4;
+	border-radius:30px;
+	color:#0033cc;
+	box-shadow:#333 10px 5px 10px;
+	background:-moz-radial-gradient(center, ellipse, #FFF 50%, #ddd);
+	background:-ms-radial-gradient(center, ellipse, #FFF 50%, #ddd);
+	background:-webkit-radial-gradient(center, ellipse, #FFF 50%, #ddd);
+	background:-o-radial-gradient(center, ellipse, #FFF 50%, #ddd);
+}
+
+/*Etiquetas*/
+blockquote{
+	display:inline;
+	margin:2px 5px;
+	padding:2px 5px;
+	font-family:bolt Verdana, Geneva, sans-serif;
+	font-size:14px;
+	text-align:center;
+	border:2px ridge #000;
+	border-radius:5px;
+	background:-moz-radial-gradient(center, ellipse, #FFF 30%, #c9d3f4 90%);
+	background:-ms-radial-gradient(center, ellipse, #FFF 30%, #c9d3f4 90%);
+	background:-webkit-radial-gradient(center, ellipse, #FFF 30%, #c9d3f4 90%);
+	background:-o-radial-gradient(center, ellipse, #FFF 30%, #c9d3f4 90%);
+}
+blockquote:hover{
+	display:inline;
+	margin:2px 5px;
+	padding:2px 5px;
+	font-family:bolder Verdana, Geneva, sans-serif;
+	font-size:14px;
+	text-align:center;
+	border:2px ridge #c9d3f4;
+	color:#0033cc;
+	border-radius:5px;
+	background:-moz-radial-gradient(center, ellipse, #FFF 30%, #ddd 90%);
+	background:-ms-radial-gradient(center, ellipse, #FFF 30%, #ddd 90%);
+	background:-webkit-radial-gradient(center, ellipse, #FFF 30%, #ddd 90%);
+	background:-o-radial-gradient(center, ellipse, #FFF 30%, #ddd 90%);
+}
+h1{
+	font-size:30px;
+	margin:5px auto;
+	font-style:italic;
+	font-weight:bolder;
+}
+h2{
+	font-size:20px;
+	text-align:justify;
+	font-style:normal;
+	font-weight:lighter;
+}
+h3{
+	font-size:14px;
+	text-align:right;
+	font-style:oblique;
+	font-weight:bolder;
+}
+h4{
+	font-size:12px;
+	text-align:justify;
+	font-style:oblique;
+	font-weight:bolder;
+}
+li{
+	margin-left:20px;
+	text-align:justify;
+	font-style:italic;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-top:5px;
+}
+th{
+	background-color:#CCCCCC;
+	border:#000000 ridge 2px;
+	text-align:center;
+}
+.celda{
+	font-style:italic;
+	padding:2px;
+	font-size:12px;
+	background-color:#FFF;
+	border:#ddd double 1px;
+	text-align:justify;
+}
+address{
+	font-style:italic;
+	font-weight:lighter;
+}
+/*Clases*/
+.titulo{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:35px;
+	font-weight:bolder;
+	font-style:italic;
+	text-align:center;
+	color:#000;
+	background:-moz-radial-gradient(center, ellipse, #c9d3f4, #FFF 75%);
+	background:-ms-radial-gradient(center, ellipse, #c9d3f4, #FFF 75%);
+	background:-webkit-radial-gradient(center, ellipse, #c9d3f4, #FFF 75%);
+	background:-o-radial-gradient(center, ellipse, #c9d3f4, #FFF 75%);
+}
+.titulo:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:35px;
+	font-weight:bolder;
+	font-style:italic;
+	text-align:center;
+	color:#0033CC;
+	background:-moz-radial-gradient(center, ellipse, #ddd, #FFF 75%);
+	background:-ms-radial-gradient(center, ellipse, #ddd, #FFF 75%);
+	background:-webkit-radial-gradient(center, ellipse, #ddd, #FFF 75%);
+	background:-o-radial-gradient(center, ellipse, #ddd, #FFF 75%);
+}
